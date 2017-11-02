@@ -1,0 +1,114 @@
+.topImg{
+  background: #333;
+  height:100vh;
+  background: url('../img/pexels-photo.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+}
+.title{
+  position: absolute;
+}
+.title h1{
+  margin: 0;
+  height: 100vh;
+  color: white;
+  font-size: 10rem;
+  font-family: 'Rozha One', serif;
+  padding: 215px 0 0 290px ;
+}
+.header{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+.header nav {
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+.logo{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.sociallist{
+  position: relative;
+  padding-top: 97px;
+
+}
+.sociallist li{
+  color: red;
+  list-style:none;
+  padding: 50px;
+  transform: rotate(-90deg);
+  position: relative;
+  font-size: 1.2rem;
+}
+.list{
+  background-color:	#F2DD70 ;
+  width:12%;
+  height:890px;
+  padding: 190px 0 0 0;
+}
+.list li a{
+  color: black;
+  text-decoration: none;
+}
+.content1 h1{
+  font-size: 100px;
+  padding: 300px 0 50px 0 ;
+}
+.content1{
+  padding: 50px;
+  position: relative;
+}
+.content1 p{
+  font-size: 30px;
+}
+.content1 a {
+  margin-top:100px;
+}
+.content1 #button{
+  text-decoration: none;
+  color: black;
+  border: black 1px solid;
+  padding: 10px 10px 10px 10px;
+  margin-left:600px;
+}
+.content1 .yellowRec{
+  position: absolute;
+  top: 0;
+  right: 95px;
+  height: 190px;
+  width: 1200px;
+  background-color: #F2DD70;
+}
+.content1 .yellowRec1{
+  position: absolute;
+  left: 1045px;
+  top: 190px;
+  height: 890px;
+  width: 476px;
+  background-color: #F2DD70;
+}
+.content1 .watch img{
+  position: absolute;
+  left: 612px;
+  height: 672px;
+  width: 848px ;
+}
