@@ -1,3 +1,43 @@
+/* ======================
+NAVIGATION
+========================*/
+.header{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 10px;
+}
+.header .logo a{
+  text-decoration: none;
+  color: white;
+}
+
+.header nav {
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+.header nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+/* ======================
+END OF NAVIGATION
+========================*/
+
+/* ======================
+THE BANNER
+========================*/
 .topImg{
   background: #333;
   height:100vh;
@@ -8,10 +48,7 @@
   background-size: cover;
   position: relative;
 }
-.logo{
-  font-size: 30px;
-  font-weight: bold;
-}
+
 .title{
   position: absolute;
 }
@@ -23,29 +60,7 @@
   font-family: 'Rozha One', serif;
   padding: 215px 0 0 290px ;
 }
-.header{
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  color: white;
-  padding: 20px;
-}
-.header nav {
-  display: inline-block;
-  float: right;
-  text-align: right;
-}
-.logo{
-  display: inline-block;
-  padding: 0 10px;
-}
 
-.header nav a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  padding: 0 10px;
-}
 .sociallist{
   position: relative;
   padding-top: 97px;
@@ -69,6 +84,18 @@
   color: black;
   text-decoration: none;
 }
+/* ======================
+END OF THE BANNER
+========================*/
+
+
+
+
+
+
+
+
+
 .content1 h1{
   font-size: 100px;
   padding: 300px 0 50px 0 ;
@@ -108,7 +135,8 @@
 }
 .content1 .watch img{
   position: absolute;
-  left: 612px;
-  height: 672px;
-  width: 848px ;
+  top: 300px;
+  left: 849px;
+  height: 555px;
+  width: 396px ;
 }
